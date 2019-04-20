@@ -1,3 +1,4 @@
+![logo](https://raw.githubusercontent.com/christophmark/pytorch-autocomplete/blob/master/data/logo.png)
 # Autocomplete with PyTorch and RNNs on Colaboratory
 
 Despite the recent very impressive advances in deep learning such as [GPT-2](https://openai.com/blog/better-language-models/), [BERT](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html) or [Nvidia's GAN-powered face generator](https://medium.com/syncedreview/gan-2-0-nvidias-hyperrealistic-face-generator-e3439d33ebaf), the most influential article about deep learning for me personally is Andrej Karpathy‘s blog entry on [the unreasonable effectiveness of recurrent neural networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/). When I first read the article almost four years ago, I was amazed of how easily these networks produce text passages which resemble the basic style patterns of e.g. a work by Shakespeare or Linux source code. However, when I tried to train my own recurrent neural networks (RNN), I quickly noticed that without a state-of-art GPU, my neural network sounded more like a toddler than like Shakespeare. 
@@ -26,11 +27,10 @@ Parts of the code in this tutorial have been taken from or are inspired by exist
 
 Feel free to use this work for your own projects, it is licensed under the [MIT License](https://opensource.org/licenses/MIT):
 
-<small><em>
 > Copyright 2019 Christoph Mark
-
+> 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
+> 
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</em></small>
+> 
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
